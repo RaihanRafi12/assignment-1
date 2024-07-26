@@ -73,7 +73,7 @@ nav{
 .main{
     
     margin: 0 auto;
-    background-color:   #f9fdfe ;
+    background-color:   rgba(13, 19, 33, 0.02) ;
     max-width: 1140px;
     border-radius: 8px;
     
@@ -95,10 +95,13 @@ nav{
 .skill{
     
     display: flex;
-   
+   background-color: rgba(255, 255, 255, 100%);
+   padding: 48px;
+   border-radius: 16px;
     gap: 100px;
     margin: 96px 145px 48px;
     justify-content: space-between;
+    margin-bottom: 32px;
 
 }
 .skill-title{
